@@ -1,0 +1,9 @@
+{
+    "full_name": "Ilya Vihtinsky",
+    "email": "iliaviht@gmail.com",
+    "github_username": "vihtinsky",
+    "provider": "Target365",
+    "provider_slug": "{{ cookiecutter.provider.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_slug": "smsframework_{{ cookiecutter.provider.lower().replace(' ', '_').replace('-', '_') }}",
+    "base_dir": "py-smsframework-{{cookiecutter.provider_slug}}"
+}
